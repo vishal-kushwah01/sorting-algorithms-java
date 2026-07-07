@@ -26,8 +26,8 @@ More sorting algorithms will be added as I continue learning.
 ```text
 sorting-algorithms-java/
 │
-├── BubbleSort.java
-├── SelectionSort.java
+├── Bubble.java
+├── Selection.java
 └── README.md
 ```
 
