@@ -2,7 +2,7 @@
 
 This repository contains my Java implementations of sorting algorithms as part of my Data Structures and Algorithms (DSA) learning journey.
 
-My goal is to understand how each sorting algorithm works, analyze its time and space complexity, and build a strong foundation before moving on to advanced algorithms.
+The objective of this repository is to understand the working of each sorting algorithm, compare their performance, and build a strong foundation for coding interviews and placement preparation.
 
 ---
 
@@ -16,6 +16,7 @@ My goal is to understand how each sorting algorithm works, analyze its time and 
 
 - ✅ Bubble Sort
 - ✅ Selection Sort
+- ✅ Insertion Sort
 
 More sorting algorithms will be added as I continue learning.
 
@@ -28,6 +29,7 @@ sorting-algorithms-java/
 │
 ├── Bubble.java
 ├── Selection.java
+├── Insertion.java
 └── README.md
 ```
 
@@ -39,16 +41,17 @@ sorting-algorithms-java/
 - Understand the logic behind each algorithm.
 - Compare different sorting techniques.
 - Analyze time and space complexity.
-- Strengthen problem-solving skills for coding interviews.
+- Improve problem-solving skills for coding interviews.
 
 ---
 
-## 📊 Time Complexity
+## 📊 Time Complexity Comparison
 
 | Algorithm | Best | Average | Worst | Space |
 |-----------|:----:|:-------:|:-----:|:-----:|
 | Bubble Sort | O(n) | O(n²) | O(n²) | O(1) |
 | Selection Sort | O(n²) | O(n²) | O(n²) | O(1) |
+| Insertion Sort | O(n) | O(n²) | O(n²) | O(1) |
 
 ---
 
@@ -56,16 +59,30 @@ sorting-algorithms-java/
 
 - ✅ Bubble Sort
 - ✅ Selection Sort
-- 🔜 Insertion Sort
+- ✅ Insertion Sort
 - 🔜 Merge Sort
 - 🔜 Quick Sort
 - 🔜 Counting Sort
+- 🔜 Radix Sort
+- 🔜 Heap Sort
 
 ---
 
-## 💡 Purpose
+## 💡 What I Learned
 
-This repository documents my progress as I learn sorting algorithms in Java. Each implementation helps me better understand algorithm design, optimization, and interview-oriented problem solving.
+Through these implementations, I learned:
+
+- How different sorting algorithms arrange data.
+- When each algorithm performs well or poorly.
+- The importance of time and space complexity.
+- How to write clean, readable, and modular Java code.
+- The difference between stable and unstable sorting algorithms.
+
+---
+
+## 🎯 Purpose
+
+This repository documents my progress as I learn sorting algorithms in Java. Each implementation strengthens my understanding of algorithm design and prepares me for technical interviews and software development roles.
 
 ---
 
